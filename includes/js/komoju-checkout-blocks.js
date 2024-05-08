@@ -50,7 +50,7 @@ function registerPaymentMethod(paymentMethod) {
 
                         console.log(`${JSON.stringify(submitResult)}`)
                         // Now we add an input to the form with the token and submit it.
-                        const inputName = 'komoju-payment_token'
+                        const inputName = 'komoju_payment_token'
                         let input = document.querySelector(`input[name="${inputName}"]`);
                         if (!input) {
                             input = document.createElement('input');
